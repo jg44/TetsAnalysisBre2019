@@ -1,0 +1,42 @@
+---
+title: "title"
+author: "description"
+date: "J. Garnas, `r format(Sys.time(), '%B %d %Y')`"
+output: 
+  html_document: 
+    fig_caption: yes
+    keep_md: yes
+    number_sections: yes
+    toc: yes
+    css: /Users/jeff/Documents/R/projects2016/style.css
+---
+# H1
+## H2
+### H3	
+- bullet1			
+- bullet
+
+
+```{r,  include=FALSE}
+source("/Users/jeff/Dropbox/R/myfunctions/Queries external sql file functions.R")
+source("/Users/jeff/Dropbox/R/myfunctions/functionlist.r")
+library(data.table)
+library(ProjectTemplate)
+library(knitr)
+# queries <- .Qget("./data/test1.sql")
+load.project()
+```
+
+**Living tree stem count 2015 data PVER (stem count in column headings):**
+```{r, echo=FALSE}
+#kable(table(treesize[dead==0, .N, by=.(FK_TreeID, SppUse)][,-1, with=FALSE]))
+
+```
+
+# Second H1
+
+
+###### /Users/jeff/Documents/R/projects2015/pver2015_relook/biomass_calculation2016.Rmd
+
+
+

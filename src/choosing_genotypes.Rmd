@@ -1,0 +1,31 @@
+---
+title: "more data processing and find populations and genotypes to use"
+author: "description"
+date: "J. Garnas, `r format(Sys.time(), '%B %d %Y')`"
+output: 
+  html_document: 
+    fig_caption: yes
+    keep_md: yes
+    number_sections: yes
+    toc: yes
+    css: /Users/jeff/Documents/R/projects2016/style.css
+---
+# s
+
+```{r,  include=TRUE}
+#browseURL("/Users/jeff/Dropbox/R/GarnasModifiedProjectTemplate-master/template.Rmd")
+library(ProjectTemplate)
+load.project()
+ls()
+list.files("./data")
+#list.files("./cache/")
+#table(treeDetails2015[, dbhs])
+```
+
+
+
+```{r}
+ls()
+#treeDetails2015
+```
+
