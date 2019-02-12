@@ -22,7 +22,6 @@ tets_larvae[, unique(tree_id)][-which(tets_larvae[, unique(tree_id)] %in% tets_t
 
 
 View(tets_larvae)
-?data.table
 
 #just checking and basic details
 
